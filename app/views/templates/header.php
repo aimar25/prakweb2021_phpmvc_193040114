@@ -2,7 +2,7 @@
     <head>
         <title>Halaman <?= $data['judul'] ?></title>
 
-        <link rel="stylesheet" href="<?= BASEURL; ?>css/bootstrap.css">
+        <link rel="stylesheet" href="<?= BASEURL; ?>/css/bootstrap.css">
     </head>
     <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -14,7 +14,9 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="<?= BASEURL; ?>">Home <span class="sr-only"></span></a>
+      <a class="nav-item nav-link active" href="<?= BASEURL; ?>">Home 
+        <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="<?= BASEURL; ?>/mahasiswa">Mahasiswa</a>
       <a class="nav-item nav-link" href="<?= BASEURL; ?>/about">About</a>
     </div>
     </div>
